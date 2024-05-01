@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+/*------------ styling nav-bar ------------*/
+.nav-bar {
+    height: 60px;
+    background-color: #0f1111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+/* nav logo */
+.nav-logo {
+    width: 100px;
+    height: 50px;
+}
+.logo {
+    background-image: url(assets/amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid #fff;
+}
+
+/*----------------address--------------*/
+.address {
+    height: 50px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.address-1 {
+    font-size: 0.85rem;
+}
+.address-2 {
+    font-size: 1rem;
+}
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+/*---------------Search-box---------------*/
+.nav-search {
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+.nav-search .search-options, .search-input, .search-icon {
+    height: 100%;
+    border: none;
+}
+.nav-search:hover {
+    border: 2px solid #febd68;
+}
+.nav-search .search-options {
+    border-radius: 4px 0 0 4px;
+    width: 50px;
+    text-align: center;
+}
+.nav-search .search-input {
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 8px;
+}
+.nav-search .search-input:hover {
+    /* outline: none;
+    border: none; */
+}
+.nav-search .search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 8px;
+    background-color: #febd68;
+    border-radius: 0 4px 4px 0;
+}
+
+/*----------------Sign in------------------ */
+.nav-sign-in, .nav-return {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 1rem;
+    height: 50px;
+    padding: 8px;
+}
+span {
+    font-size: .85rem;
+}
+.nav-second {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+/* ---------------nav-cart--------------- */
+.nav-cart i {
+    font-size: 30px;
+    margin-right: 4px;
+}
+.nav-cart {
+    height: 50px;
+    padding: 0 8px;
+    font-size: .9rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+/*----------2nd nav-panel-----------*/
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(0, 157, 255);
+}
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+}
+.panel-ops {
+    width: 70%;
+    font-size: .85rem;
+}
+.panel-ops a {
+    margin-left: 1rem;
+}
+.panel-all {
+    font-size: .9rem;
+}
+.panel-deals {
+    font-size: .9rem;
+    font-family: 700;
+}
+
+/* -------------Hero-section----------- */
+.container {
+    margin: 0 20px;
+}
+.hero {
+    height: 350px;
+    background-image: url(assets/hero_image.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    align-items: flex-end;
+}
+.hero-msg {
+    background-image: none;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #fff;
+    padding: 0 8px;
+    margin: 0 1rem 1rem;
+    
+}
+.hero-msg p {
+    text-align: center;
+    font-size: .9rem;
+}
+.hero-msg p a {
+    color: rgb(39, 161, 120);
+    cursor: pointer;
+}
+.hero-msg p a:hover {
+    color: red;
+}
+
+/* ---------------big-shop-section----------------- */
+.container {
+    /* background-color: #f9ee57;  */
+    background-color: gainsboro;
+    
+    /*#ffee00*/
+    margin: 0;
+}
+.big-shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+.big-shop-section .box {
+    width: 23%;
+    background-color: #fff;
+    padding: 1rem;
+}
+.big-shop-section .box .img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box h3 {
+    padding: 1rem 0;
+}
+.big-shop-section .box .seeMore {
+    margin-top: 8px;
+    padding: 0.5rem 0; /* Adjust the padding as needed */
+}
+.big-shop-section .box .seeMore a {
+    color: rgb(39, 161, 120);
+    font-size: .9rem;
+}
+.big-shop-section .box .seeMore a:hover {
+    color: red;
+    text-decoration:underline;
+}
+
+.big-shop-section .box9 {
+    display: none;
+}
+
+/*-----------------small-shop-section----------------*/
+.small-shop-section {
+    padding: 1.5rem;
+    margin: 0 2rem;
+    background-color: white;
+}
+.small-shop-section .heading{
+    padding-bottom: 1rem;
+}
+
+.image-section {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    /* width: 100%; */
+}
+.image-section .row-image {
+    flex: 0 0 auto;
+    width: 170px;
+    height: 200px;
+    padding: 0 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* row will contain only three boxes fot the required min-width */
+@media  screen and (max-width:1240px) {
+    .big-shop-section .box {
+        width: 30%;
+    }
+    .big-shop-section .box9 {
+        display: block;
+    }
+    .big-shop-section .box4 {
+        display: none;
+    }
+
+}
+
+ /* Set a minimum width for the body or a container element */
+@media  screen and (max-width:1000px) {
+body {
+    min-width: 1000px; /* Adjust this value as needed */
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+}
+
+/* ----------------Footer-Section------------------ */
+.foot-panel-1 {
+    height: 50px;
+    background-color: #374754;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.foot-panel-2 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.foot-panel-2 .column a {
+    font-size: .85rem;
+    display: flex;
+    margin-top: 1rem;
+    color: gainsboro;
+}
+.foot-panel-2 .column p {
+    color: #fff;
+    font-weight: 700px;
+}
+
+/* foot-panel-3 */
+.foot-panel-3 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .2px solid gainsboro;
+}
+
+/* foot-panel-4 */
+.foot-panel-4 {
+    max-height: 100px;
+    background-color: #0f1111;
+    text-align: center;
+    font-size: 0.7rem;
+    color: gainsboro;
+    padding: 20px 0;
+}
+.foot-panel-4 a {
+    margin-left: 10px;
+}
+.foot-panel-4 p {
+    margin-top: 5px;
+}
+
+
