@@ -11,7 +11,8 @@
  }
 
  body {
-    background-color: #37886D;
+   background-image: url(./assets/dollar.jpg);
+   background-size: cover;
  }
 
  .wrapper {
@@ -82,7 +83,7 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     
-    background-image: url("dropdown_icon.png");
+    background-image: url("./assets/dropdown_icon.png");
     background-repeat: no-repeat;
     background-position: right 15px top 50%, center;
     background-size: 20px 20px;

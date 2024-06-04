@@ -1,6 +1,9 @@
 # Currency_Converter Project
 
 This video illustrates the functioning of the currency_converter project.
+## Image
+
+![Currency Converter](assets/currency_converter.png)
 
 ## Video
 
